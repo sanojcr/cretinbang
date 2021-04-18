@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('../node_modules/bootstrap-icons/font/bootstrap-icons.css');
+
+.nav-propic{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.upload{
+    display: block !important;
+    @media (min-width: 992px){
+        display: none !important;
+    }
+}
+
+.upload-form{
+    display: none !important;
+    @media (min-width: 992px){
+        display: block !important;
+    }
+}
+
+ul.navbar-nav li.nav-item a{
+    border-bottom: 1px solid rgb(167, 158, 158);
+    @media (min-width: 992px){
+        border-bottom: none !important;
+    }
+}
+
+body {
+    background-color: #1a1d20 !important;
+}
+
+.upload-form-main{
+    margin: 50px 0 50px 0;
+    .upload-input{
+        margin: 0 0 15px 0;
+    }
+}
+
+.btn-upload{
+    padding: .25rem .75rem;
+}
